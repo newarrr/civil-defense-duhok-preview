@@ -1,2 +1,6 @@
-# civil-defense-duhok-preview
-Duhok Civil Defense training curriculum: web preview (built site only)
+# Civil Defense Duhok — web preview
+
+Built website of the Duhok Civil Defense training curriculum, for review.
+Open: https://newarrr.github.io/civil-defense-duhok-preview/
+
+Published from commit 5bb70d6 of the private project repository. This repository holds only the built site.

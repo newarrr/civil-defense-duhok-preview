@@ -1,0 +1,29 @@
+{
+  "type": "silent-illustrative-educational",
+  "duration": 28,
+  "dimensions": [
+    960,
+    540
+  ],
+  "languages": [
+    "en",
+    "ar",
+    "ku_badini",
+    "ku_sorani"
+  ],
+  "units": [
+    "administration",
+    "operations",
+    "fire",
+    "first-aid",
+    "land-rescue",
+    "hazmat",
+    "water-rescue",
+    "prevention",
+    "explosives",
+    "awareness",
+    "training",
+    "logistics",
+    "relief"
+  ]
+}
