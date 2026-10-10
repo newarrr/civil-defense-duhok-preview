@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "بەرگرییا شارستانی دهۆک — Duhok Civil Defense",
-  "short_name": "بەرگرییا شارستانی",
-  "description": "Duhok Civil Defense training curriculum and instructor portal. Kurdish Badini, Kurdish Sorani, Arabic and English. Works without internet.",
+  "name": "هشیاری و فێرکرنا بەرگرییا شارستانی — Civil Defense Awareness and Training",
+  "short_name": "هشیاری و فێرکرن",
+  "description": "Civil Defense awareness and training curriculum (Duhok) and instructor tools. Kurdish Badini, Kurdish Sorani, Arabic and English. Works without internet.",
   "lang": "kmr-Arab",
   "dir": "rtl",
   "start_url": "./",
