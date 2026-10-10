@@ -3,4 +3,4 @@
 Built website of the Civil Defense awareness and training curriculum (Duhok), for review.
 Open: https://newarrr.github.io/civil-defense-duhok-preview/
 
-Published from commit f32004c of the private project repository. This repository holds only the built site.
+Published from commit a4bcc20 of the private project repository. This repository holds only the built site.
