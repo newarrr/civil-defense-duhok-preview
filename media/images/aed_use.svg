@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1600" role="img"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fbfd"/><stop offset="1" stop-color="#dbe8f1"/></linearGradient>
+<linearGradient id="navy" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#173b5c"/><stop offset="1" stop-color="#0d263d"/></linearGradient>
+<filter id="sh"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".18"/></filter>
+</defs><rect width="1600" height="1600" fill="url(#bg)"/>
+<rect y="1190" width="1600" height="410" fill="#d3dde4"/>
+<g transform="translate(800 1040)"><ellipse cx="0" cy="-320" rx="72" ry="66" fill="#e8b486"/><rect x="-210" y="-265" width="420" height="320" rx="110" fill="#e8b486"/></g>
+<rect x="860" y="790" width="125" height="140" rx="22" fill="#fff" stroke="#2188c9" stroke-width="7"/><rect x="650" y="965" width="135" height="145" rx="22" fill="#fff" stroke="#2188c9" stroke-width="7"/>
+<rect x="1140" y="770" width="260" height="240" rx="28" fill="#263b50"/><rect x="1190" y="820" width="160" height="90" rx="10" fill="#87c9e9"/>
+<path d="M1140 930L930 855M1140 965L720 1030" stroke="#2a3036" stroke-width="10"/>
+<g transform="translate(390 1230) scale(0.9)">
+<circle cx="0" cy="-120" r="36" fill="#e8b486"/><path d="M-33-126q33-34 66 0v-18q-33-28-66 0z" fill="#332722"/>
+<rect x="-48" y="-84" width="96" height="145" rx="24" fill="#1f4a70"/>
+<path d="M-28 26l-20 90M28 26l20 90" stroke="#1f4a70" stroke-width="28" stroke-linecap="round"/>
+<path d="M-34-58l-54 76M34-58l54 76" stroke="#1f4a70" stroke-width="22" stroke-linecap="round"/>
+</g><path d="M350 900l-130-170M430 900l150-170" stroke="#1f4a70" stroke-width="28" stroke-linecap="round"/><circle cx="215" cy="720" r="24" fill="#e8b486"/><circle cx="585" cy="720" r="24" fill="#e8b486"/>
+<g transform="translate(1430 1210) scale(0.7)">
+<circle cx="0" cy="-120" r="36" fill="#e8b486"/><path d="M-33-126q33-34 66 0v-18q-33-28-66 0z" fill="#332722"/>
+<rect x="-48" y="-84" width="96" height="145" rx="24" fill="#536b7f"/>
+<path d="M-28 26l-20 90M28 26l20 90" stroke="#536b7f" stroke-width="28" stroke-linecap="round"/>
+<path d="M-34-58l-54 76M34-58l54 76" stroke="#536b7f" stroke-width="22" stroke-linecap="round"/>
+</g>
+</svg>

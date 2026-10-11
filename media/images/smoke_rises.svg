@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1600" role="img"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fbfd"/><stop offset="1" stop-color="#dbe8f1"/></linearGradient>
+<linearGradient id="navy" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#173b5c"/><stop offset="1" stop-color="#0d263d"/></linearGradient>
+<filter id="sh"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".18"/></filter>
+</defs><rect width="1600" height="1600" fill="url(#bg)"/>
+<rect y="1110" width="1600" height="490" fill="#b9a88d"/><rect x="1235" y="330" width="310" height="930" fill="#eef9ff" stroke="#849cab" stroke-width="12"/>
+<g fill="#656b72" opacity=".82"><ellipse cx="160" cy="220" rx="300" ry="150"/><ellipse cx="440" cy="340" rx="300" ry="150"/><ellipse cx="720" cy="220" rx="300" ry="150"/><ellipse cx="1000" cy="340" rx="300" ry="150"/><ellipse cx="1280" cy="220" rx="300" ry="150"/><ellipse cx="1560" cy="340" rx="300" ry="150"/></g>
+<g transform="translate(420 1320) scale(0.7)">
+<circle cx="0" cy="-120" r="30" fill="#e8b486"/><path d="M-33-126q33-34 66 0v-18q-33-28-66 0z" fill="#332722"/>
+<rect x="-38" y="-84" width="76" height="110" rx="24" fill="#314d70"/>
+<path d="M-28 26l-20 90M28 26l20 90" stroke="#314d70" stroke-width="22" stroke-linecap="round"/>
+<path d="M-34-58l-54 76M34-58l54 76" stroke="#314d70" stroke-width="18" stroke-linecap="round"/>
+</g><g transform="translate(800 1370) scale(0.64)">
+<circle cx="0" cy="-120" r="30" fill="#e8b486"/><path d="M-33-126q33-34 66 0v-18q-33-28-66 0z" fill="#332722"/>
+<rect x="-38" y="-84" width="76" height="110" rx="24" fill="#314d70"/>
+<path d="M-28 26l-20 90M28 26l20 90" stroke="#314d70" stroke-width="22" stroke-linecap="round"/>
+<path d="M-34-58l-54 76M34-58l54 76" stroke="#314d70" stroke-width="18" stroke-linecap="round"/>
+</g>
+<path d="M330 1210l-140 130M510 1210l140 130M710 1250l-140 120M890 1250l140 120" stroke="#314d70" stroke-width="36" stroke-linecap="round"/>
+<path d="M80 1140H1160" stroke="#21b8ff" stroke-width="11" stroke-dasharray="24 20"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1600" role="img"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fbfd"/><stop offset="1" stop-color="#dbe8f1"/></linearGradient>
+<linearGradient id="navy" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#173b5c"/><stop offset="1" stop-color="#0d263d"/></linearGradient>
+<filter id="sh"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".18"/></filter>
+</defs><rect width="1600" height="1600" fill="url(#bg)"/>
+<rect y="1180" width="1600" height="420" fill="#d4dde4"/>
+<g transform="translate(810 1080)"><ellipse cx="210" cy="-330" rx="72" ry="66" fill="#e8b486"/><rect x="-80" y="-280" width="410" height="250" rx="90" fill="#e8b486"/><rect x="-250" y="-70" width="650" height="36" rx="18" fill="#8092a1"/></g>
+<g transform="translate(600 1180) scale(0.95)">
+<circle cx="0" cy="-120" r="36" fill="#e8b486"/><path d="M-33-126q33-34 66 0v-18q-33-28-66 0z" fill="#332722"/>
+<rect x="-48" y="-84" width="96" height="145" rx="24" fill="#1f4a70"/>
+<path d="M-28 26l-20 90M28 26l20 90" stroke="#1f4a70" stroke-width="28" stroke-linecap="round"/>
+<path d="M-34-58l-54 76M34-58l54 76" stroke="#1f4a70" stroke-width="22" stroke-linecap="round"/>
+</g>
+<path d="M610 790L790 865M675 770L790 865" stroke="#e8b486" stroke-width="34" stroke-linecap="round"/>
+<rect x="755" y="835" width="90" height="44" rx="16" fill="#e8b486" transform="rotate(-10 800 857)"/>
+<g transform="translate(420 1110) scale(0.8)"><rect x="-28" y="-55" width="56" height="110" rx="10" fill="#203044"/><rect x="-19" y="-43" width="38" height="72" rx="4" fill="#77c9f3"/><circle cx="0" cy="41" r="5" fill="#fff"/></g>
+<g transform="translate(1300 1160) scale(0.72)">
+<circle cx="0" cy="-120" r="36" fill="#e8b486"/><path d="M-33-126q33-34 66 0v-18q-33-28-66 0z" fill="#332722"/>
+<rect x="-48" y="-84" width="96" height="145" rx="24" fill="#455c72"/>
+<path d="M-28 26l-20 90M28 26l20 90" stroke="#455c72" stroke-width="28" stroke-linecap="round"/>
+<path d="M-34-58l-54 76M34-58l54 76" stroke="#455c72" stroke-width="22" stroke-linecap="round"/>
+</g>
+<rect x="1220" y="820" width="160" height="115" rx="24" fill="#df4040" stroke="#8d1f1f" stroke-width="5"/><path d="M1270 860h60m-30-30v60" stroke="#fff" stroke-width="14"/>
+</svg>

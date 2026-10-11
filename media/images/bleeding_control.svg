@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1600" role="img"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fbfd"/><stop offset="1" stop-color="#dbe8f1"/></linearGradient>
+<filter id="sh"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".18"/></filter>
+</defs><rect width="1600" height="1600" fill="url(#bg)"/>
+<rect y="1190" width="1600" height="410" fill="#d3dbe1"/>
+<g transform="translate(1030 1310) scale(0.85)">
+<circle cx="0" cy="-120" r="36" fill="#e8b486"/><path d="M-33-126q33-34 66 0v-18q-33-28-66 0z" fill="#332722"/>
+<rect x="-48" y="-84" width="96" height="145" rx="24" fill="#5b6470"/>
+<path d="M-28 26l-20 90M28 26l20 90" stroke="#5b6470" stroke-width="28" stroke-linecap="round"/>
+<path d="M-34-58l-54 76M34-58l54 76" stroke="#5b6470" stroke-width="22" stroke-linecap="round"/></g><path d="M980 1035l-190 50" stroke="#e8b486" stroke-width="34" stroke-linecap="round"/><rect x="770" y="1040" width="130" height="90" rx="15" fill="#fff"/><circle cx="835" cy="1085" r="22" fill="#d85d5d" opacity=".45"/>
+<g transform="translate(590 1260) scale(0.95)">
+<circle cx="0" cy="-120" r="36" fill="#e8b486"/><path d="M-33-126q33-34 66 0v-18q-33-28-66 0z" fill="#332722"/>
+<rect x="-48" y="-84" width="96" height="145" rx="24" fill="#1e537c"/>
+<path d="M-28 26l-20 90M28 26l20 90" stroke="#1e537c" stroke-width="28" stroke-linecap="round"/>
+<path d="M-34-58l-54 76M34-58l54 76" stroke="#1e537c" stroke-width="22" stroke-linecap="round"/></g><path d="M640 930L820 1070M560 930L790 1080" stroke="#9fd5ff" stroke-width="34" stroke-linecap="round"/><rect x="750" y="1035" width="125" height="95" rx="15" fill="#fff"/>
+<g transform="translate(1360 1200) scale(0.55)">
+<circle cx="0" cy="-120" r="36" fill="#e8b486"/><path d="M-33-126q33-34 66 0v-18q-33-28-66 0z" fill="#332722"/>
+<rect x="-48" y="-84" width="96" height="145" rx="24" fill="#566b7d"/>
+<path d="M-28 26l-20 90M28 26l20 90" stroke="#566b7d" stroke-width="28" stroke-linecap="round"/>
+<path d="M-34-58l-54 76M34-58l54 76" stroke="#566b7d" stroke-width="22" stroke-linecap="round"/></g><rect x="1390" y="890" width="55" height="110" rx="12" fill="#26384a"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1600" role="img"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fbfd"/><stop offset="1" stop-color="#dbe8f1"/></linearGradient>
+<filter id="sh"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".18"/></filter>
+</defs><rect width="1600" height="1600" fill="url(#bg)"/>
+<rect y="1180" width="1600" height="420" fill="#d6dde2"/>
+<g transform="translate(790 950) rotate(-6)"><ellipse cx="-270" cy="-80" rx="70" ry="65" fill="#e8b486"/><rect x="-180" y="-120" width="390" height="170" rx="70" fill="#536577"/><path d="M-230-80l-40 20" stroke="#e8b486" stroke-width="34"/><path d="M-190 20l-110 190M120 20l150 170" stroke="#536577" stroke-width="48" stroke-linecap="round"/><path d="M185 180l145-20" stroke="#536577" stroke-width="48" stroke-linecap="round"/></g>
+<g transform="translate(1250 1290) scale(0.72)">
+<circle cx="0" cy="-120" r="36" fill="#e8b486"/><path d="M-33-126q33-34 66 0v-18q-33-28-66 0z" fill="#332722"/>
+<rect x="-48" y="-84" width="96" height="145" rx="24" fill="#1f4a70"/>
+<path d="M-28 26l-20 90M28 26l20 90" stroke="#1f4a70" stroke-width="28" stroke-linecap="round"/>
+<path d="M-34-58l-54 76M34-58l54 76" stroke="#1f4a70" stroke-width="22" stroke-linecap="round"/></g>
+</svg>
