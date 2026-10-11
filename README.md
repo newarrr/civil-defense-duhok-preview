@@ -1,3 +1,3 @@
 # Civil Defense Awareness and Training — web preview
 
-Published from private source commit fa5b721.
+Published from private source commit 8bfe2c7.
