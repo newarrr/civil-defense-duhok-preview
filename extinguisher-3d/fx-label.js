@@ -1,0 +1,55 @@
+// Label system content. No model-specific numbers are invented: SPECS values are null until real model data is supplied.
+const T=(ar,en,ku)=>({ar,en,ku});
+
+// Fill these with the real certified model data (string values per language or a plain string). null = "Not specified".
+const EMPTY=()=>({capacity:null,opPressure:null,testPressure:null,temp:null,range:null,time:null,wEmpty:null,wFull:null,maker:null,model:null,serial:null,mfgDate:null,service:null,refill:null,standards:null});
+export const SPECS={abc:EMPTY(),co2:EMPTY(),water:EMPTY(),foam:EMPTY(),wetchem:EMPTY(),clean:EMPTY()};
+
+export const SPEC_KEYS=['capacity','opPressure','testPressure','temp','range','time','wEmpty','wFull','maker','model','serial','mfgDate','service','refill','standards'];
+export const FIELDS={
+capacity:{n:T('السعة','Capacity','قەبارە'),d:T('كمية مادة الإطفاء بالكيلوغرام أو اللتر كما يسجلها المصنع.','Agent quantity in kg or litres as stated by the manufacturer.','بڕێ مادێ ب کیلۆگرام یان لیتر وەک چێکەر دنڤیسیت.')},
+opPressure:{n:T('ضغط التشغيل','Operating pressure','پەستانا کارکرنێ'),d:T('الضغط الداخلي الطبيعي عند درجة الحرارة المرجعية؛ يظهر نطاقه بالأخضر على المقياس.','Normal internal pressure at the reference temperature; its range is the green zone on the gauge.','پەستانا ئاسایی یا ناڤخۆیی؛ دەڤەرا وێ کەسکە ل سەر پەستانپێڤی.')},
+testPressure:{n:T('ضغط الاختبار','Test pressure','پەستانا تاقیکرنێ'),d:T('الضغط المستخدم في الاختبار الهيدروستاتيكي للأسطوانة، ويُختم عليها.','Pressure used in the hydrostatic test of the shell, stamped on the cylinder.','پەستانا تاقیکرنا هایدرۆستاتیکی، ل سەر ئەسپێرێ مۆرکری.')},
+temp:{n:T('حرارة التشغيل','Operating temperature','پلەیا گەرمیا کارکرنێ'),d:T('أدنى وأعلى درجة حرارة تعمل عندها الطفاية بأمان.','Minimum and maximum temperature at which the unit works safely.','کێمترین و زێدەترین پلەیا گەرمیێ بۆ کارکرنا سەلامەت.')},
+range:{n:T('مدى الرش','Throw range','دویراتیا رشاندنێ'),d:T('المسافة التقريبية التي تصلها المادة، وفق اختبار المصنع.','Approximate reach of the discharge, per manufacturer test.','دویراتیا نێزیکی یا مادێ، ل دویڤ تاقیکرنا چێکەری.')},
+time:{n:T('زمن التفريغ','Discharge time','دەمێ ڤالابوونێ'),d:T('مدة التفريغ الكامل بالضغط المستمر.','Duration of a full continuous discharge.','دەمێ ڤالابوونا تەمام ب گڤاشتنا بەردەوام.')},
+wEmpty:{n:T('الوزن فارغة','Empty weight','گرانیا ڤالا'),d:T('وزن الطفاية دون المادة؛ يُستخدم مع الوزن الممتلئ لفحص CO2.','Weight without agent; used with full weight to check CO2 units.','گرانی بێ مادە؛ بۆ پشکنینا CO2 بکاردهێت.')},
+wFull:{n:T('الوزن ممتلئة','Full weight','گرانیا تژی'),d:T('الوزن الكلي بعد التعبئة.','Total weight when charged.','گرانیا گشتی پشتی تژیکرنێ.')},
+maker:{n:T('الشركة المصنعة','Manufacturer','کۆمپانیا چێکەر'),d:T('اسم الجهة المصنعة المسؤولة عن الطراز.','Company responsible for the model.','ناڤێ کۆمپانیا بەرپرسیار.')},
+model:{n:T('رقم الموديل','Model number','ژمارا مۆدێلی'),d:T('رمز الطراز الذي ترتبط به كل المواصفات والشهادات.','Model code that all specifications and approvals refer to.','کۆدێ مۆدێلی کو هەمی تایبەتمەندی پێڤە گرێداینە.')},
+serial:{n:T('الرقم التسلسلي','Serial number','ژمارا زنجیرەیی'),d:T('رقم فريد لكل أسطوانة لتتبع الصيانة.','Unique number per cylinder for service tracking.','ژمارەکا تایبەت بۆ هەر ئەسپێرەکێ.')},
+mfgDate:{n:T('تاريخ التصنيع','Manufacture date','دیرۆکا چێکرنێ'),d:T('تُحسب منه مواعيد الاختبار الهيدروستاتيكي.','Hydrostatic test intervals are counted from it.','وەختێن تاقیکرنێ ژێ دهێنە هژمارتن.')},
+service:{n:T('تاريخ الفحص والصيانة','Inspection / service date','دیرۆکا پشکنین و چاککرنێ'),d:T('آخر فحص أو صيانة، يُسجَّل على بطاقة الصيانة.','Last inspection or service, recorded on the service tag.','دووماهیک پشکنین، ل سەر کارتا چاککرنێ.')},
+refill:{n:T('إعادة التعبئة','Recharge','دووبارە تژیکرن'),d:T('تُعاد التعبئة بعد أي استخدام ولو قصير، لدى جهة معتمدة فقط.','Recharge after any use, even brief, by an approved service only.','پشتی هەر بکارئینانەکێ، بتنێ لای لایەنەکێ پەسەندکری.')},
+standards:{n:T('المعايير والشهادات','Standards & approvals','ستاندارد و بڕوانامە'),d:T('الاعتمادات الفعلية للطراز (مثل EN 3 أو UL)؛ لا تُذكر إلا إذا كانت مثبتة.','Actual approvals of the model (e.g. EN 3 or UL); listed only when verified.','بڕوانامێن راستی یێن مۆدێلی؛ بتنێ ئەگەر سەلماندی بن.')}
+};
+
+export const CLS_EX={
+A:T('خشب، ورق، كرتون، قماش، بلاستيك صلب.','Wood, paper, cardboard, textiles, solid plastics.','دار، کاغەز، کارتۆن، قوماش، پلاستیکێ رەق.'),
+B:T('بنزين، ديزل، دهانات، مذيبات، كحول.','Petrol, diesel, paints, solvents, alcohol.','بەنزین، گازوایل، رەنگ، حەلکەر، ئەلکهول.'),
+C:T('غاز الطهي (LPG)، الغاز الطبيعي، البروبان.','Cooking gas (LPG), natural gas, propane.','گازا چێشتلێنانێ، گازا سروشتی، پرۆپان.'),
+D:T('المغنيسيوم، الصوديوم، الليثيوم، برادة الألمنيوم.','Magnesium, sodium, lithium, aluminium swarf.','مەگنیزیۆم، سۆدیۆم، لیسیۆم.'),
+F:T('زيت المقلاة العميقة، دهون الطهي الساخنة.','Deep-fryer oil, hot cooking fats.','رۆنێ تاوەیێ، بەزێن گەرم.'),
+E:T('لوحات كهربائية، حواسيب، أجهزة موصولة بالكهرباء.','Switchboards, computers, live electrical equipment.','تابلۆیێن کارەبێ، کۆمپیوتەر، ئامیرێن پێڤەکری.')};
+export const CLS_WHY={
+A:T('لا تبرّد المواد الصلبة بما يكفي، فقد تعود للاشتعال.','Does not cool solids enough; they can re-ignite.','مادێن رەق باش سار ناکەت؛ دبیت دووبارە ئاگر بگرن.'),
+B:T('قد تنشر السائل المشتعل وتوسّع الحريق.','Can spread the burning liquid and enlarge the fire.','دبیت شلەیا ئاگرگرتی بەلاڤ بکەت.'),
+C:T('حريق الغاز يُوقف بإغلاق مصدره؛ إطفاؤه دون ذلك يترك غازاً قابلاً للانفجار.','Stop a gas fire by shutting the supply; putting it out otherwise leaves explosive gas.','ئاگرێ گازێ ب گرتنا چاڤکانیێ رادوەستیت؛ ئەگەر نە گاز دمینیت و دتەقیت.'),
+D:T('المعادن تحتاج مسحوقاً خاصاً من الفئة D؛ المواد الأخرى قد تتفاعل بعنف.','Metals need a special Class D powder; other agents can react violently.','کانزا تۆزا تایبەت یا D دڤێت؛ مادێن دی دبیت ب توندی کارلێک بکەن.'),
+F:T('قد يتناثر الزيت الساخن بعنف أو يعود للاشتعال؛ استخدم الكيميائي الرطب أو بطانية الحريق.','Hot oil can erupt violently or re-ignite; use wet chemical or a fire blanket.','رۆنێ گەرم دبیت ب توندی بپرژیت؛ کیمیایی یێ تەڕ یان بەتانیێ بکاربینە.'),
+E:T('المادة موصلة للكهرباء: خطر صعق كهربائي.','The agent conducts electricity: risk of electric shock.','مادە کارەبێ دگوهێزیت: مەترسیا کارەبالێدانێ.')};
+
+export const GAUGE_READ=T('المؤشر في الأخضر: الضغط ضمن نطاق التشغيل. في الأحمر الأيسر (RECHARGE): ضغط منخفض، تحتاج إعادة تعبئة. في الأحمر الأيمن (OVER): ضغط زائد، أبلغ فنياً معتمداً. لا تحاول تعديل الضغط بنفسك.',
+ 'Needle in green: pressure is in the operating range. Left red (RECHARGE): low pressure, needs recharging. Right red (OVER): overcharged, report to a certified technician. Never adjust pressure yourself.',
+ 'دەرزی د کەسک دا: پەستان د ناڤ دەڤەرا کارکرنێ دا یە. سۆرێ چەپێ (RECHARGE): پەستانا کێم، تژیکرن دڤێت. سۆرێ راستێ (OVER): پەستانا زێدە، راپۆرتێ بدە تەکنیکاری. ب خۆ پەستانێ نەگوهۆڕە.');
+export const NO_GAUGE=T('هذا النوع عادةً بلا مقياس ضغط؛ تُفحص الكمية بالوزن مقارنةً بالوزن المسجل على الطفاية.','This type usually has no gauge; contents are checked by weighing against the weight marked on the unit.','ئەڤ جۆرە ب گشتی پەستانپێڤ نینە؛ ب کێشانێ دهێتە پشکنین.');
+export const STORAGE=T('علّقها على حاملها في مكان ظاهر قرب المخارج، بعيداً عن الحرارة المباشرة والرطوبة، ضمن حرارة التشغيل المكتوبة على الملصق. افحصها بصرياً كل شهر، وصيانة سنوية لدى جهة معتمدة.',
+ 'Keep it on its bracket, visible and near exits, away from direct heat and damp, within the operating temperature on the label. Visual check monthly; annual service by an approved company.',
+ 'ل سەر هەلگرێ وێ ل جهەکێ دیار نێزیکی دەرگەهان بهێلە، دویر ژ گەرمی و شێدارێ. هەر هەیڤ پشکنینا چاڤی، و چاککرنا سالانە لای لایەنەکێ پەسەندکری.');
+export const TYPE_NOTE={mist:T('ملاحظة: اعتمادات رذاذ الماء للزيوت أو الكهرباء تختلف حسب الطراز؛ اتبع الملصق فقط.','Note: water-mist approvals for oils or electrical vary by model; follow the label only.','تێبینی: پەسەندکرنێن ئاڤا ورد ل دویڤ مۆدێلی جودانە؛ بتنێ ئێتیکێتێ بشوینە.'),water:T('ملاحظة: طفايات رذاذ الماء (Water Mist) والماء المختبر كهربائياً لها اعتمادات مختلفة؛ هذه المعلومات للطفاية المائية التقليدية فقط.','Note: water-mist and dielectrically tested water units have different approvals; this applies to conventional water extinguishers only.','تێبینی: ئاگرکوژێن ئاڤا ورد (Water Mist) پەسەندکرنێن جودا هەنە؛ ئەڤە بتنێ بۆ ئاگرکوژا ئاڤێ یا ئاسایی یە.')};
+
+export const LUI={
+ar:{labelBtn:'عرض الملصق',labelT:'ملصق الطفاية',printed:'الملصق المطبوع',interactive:'تفاعلي',listen:'استماع',stopL:'إيقاف الصوت',noVoice:'لا يتوفر صوت لهذه اللغة على هذا الجهاز.',close:'إغلاق',full:'ملء الشاشة',specsT:'البيانات الفنية',na:'غير محدد',naNote:'لا توجد بيانات طراز حقيقي مرتبطة بهذا النموذج، لذلك لم يُكتب أي رقم. تُضاف القيم من شهادة الطراز المعتمد.',doNot:'لا تستخدم على',suits:'مناسبة لـ',storageT:'التخزين والفحص الدوري',qrT:'رمز QR',qrNote:'يُضاف عند توفر رابط الدليل الرسمي',gaugeT:'قراءة مقياس الضغط',ex:'أمثلة',why:'السبب',agentT:'مادة الإطفاء',passT:'طريقة الاستخدام',safe:'للحريق الصغير فقط ومع طريق خروج آمن. إذا انتشر الحريق: أخلِ المكان واتصل بالطوارئ.',tap:'اضغط على أي عنصر لعرض تفاصيله.',zoomHint:'مرّر للتكبير والتنقل في الملصق.',edu:'نموذج تعليمي — القيم الحقيقية من ملصق الشركة المصنعة'},
+en:{labelBtn:'View label',labelT:'Extinguisher label',printed:'Printed label',interactive:'Interactive',listen:'Listen',stopL:'Stop audio',noVoice:'No voice for this language on this device.',close:'Close',full:'Full screen',specsT:'Technical data',na:'Not specified',naNote:'No real model data is linked to this model, so no numbers are printed. Values are added from the certified model’s data sheet.',doNot:'Do not use on',suits:'Suitable for',storageT:'Storage & periodic inspection',qrT:'QR code',qrNote:'Added when the official manual link is available',gaugeT:'Reading the pressure gauge',ex:'Examples',why:'Why',agentT:'Extinguishing agent',passT:'How to use',safe:'Small fires only, with a safe exit. If the fire spreads: evacuate and call emergency services.',tap:'Tap any item to see its details.',zoomHint:'Scroll to zoom and move around the label.',edu:'Educational model — real values come from the manufacturer label'},
+ku:{labelBtn:'نیشاندانا ئێتیکێتێ',labelT:'ئێتیکێتا ئاگرکوژێ',printed:'ئێتیکێتا چاپکری',interactive:'کارلێک',listen:'گوهداری',stopL:'راوەستاندنا دەنگی',noVoice:'دەنگ بۆ ڤێ زمانی ل سەر ڤی ئامیری نینە.',close:'گرتن',full:'هەمی شاشە',specsT:'زانیاریێن تەکنیکی',na:'دیارنەکری',naNote:'چ زانیاریێن مۆدێلەکێ راستی ب ڤی مۆدێلی ڤە نەگرێداینە، لەو چ ژمارە نەهاتینە نڤیسین.',doNot:'بکار نەئینە ل سەر',suits:'گونجایە بۆ',storageT:'هەلگرتن و پشکنینا دەمدەمی',qrT:'کۆدێ QR',qrNote:'دهێتە زێدەکرن دەمێ لینکا رێبەرێ فەرمی هەبیت',gaugeT:'خواندنا پەستانپێڤی',ex:'نموونە',why:'ئەگەر',agentT:'مادا ڤەمراندنێ',passT:'رێکا بکارئینانێ',safe:'بتنێ بۆ ئاگرێ بچویک و ب رێکەکا دەرکەفتنێ یا سەلامەت. ئەگەر بەلاڤ بوو: جهی چۆل بکە و تێلەفۆنی فریاکەفتنێ بکە.',tap:'ل سەر هەر بڕگەیەکێ بکە دا هوورگلیان ببینی.',zoomHint:'بزڤڕینە بۆ مەزنکرنێ.',edu:'مۆدێلێ فێرکاری — نرخێن راستی ژ ئێتیکێتا چێکەری'}
+};
